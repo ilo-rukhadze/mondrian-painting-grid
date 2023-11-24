@@ -28,16 +28,64 @@
     .main-content { 
       background-color: #000;
       display: grid;
-      grid-template-columns: 320px 378px 50px;
-      grid-template-rows: 414px 130px 184px 20px ;
+      grid-template-columns: 320px 189px 189px 50px;
+      grid-template-rows: 414px 130px 155px 20px ;
+      gap: 9px;
     }
+    
+    .box {
+      background-color: #F0F1EC;
+    }
+
+    .number-1{
+      background-color: #E72F24;
+    }
+
+    .number-2{
+      grid-column : span 3;
+    }
+
+    .number-3{
+      grid-row: span 2;
+    }
+
+    .number-4{
+      grid-row: span 2;
+      grid-column : span 2;
+    }
+
+    .number-5 { 
+      background-color: #004592 ;
+      border-bottom: 10px solid black;
+    }
+    .number-6 {
+      grid-row: span 2;
+    }
+
+    .number-8 { 
+      background-color:  #F9D01E;
+    }
+
+    .number-9 { 
+      background-color: #232629 ;
+    }
+
+    
   </style>
 </head>
 
 <body>
   <div class="container">
     <div class="main-content">
-
+      <div class="box number-1"></div>
+      <div class="box number-2"></div>
+      <div class="box number-3"></div>
+      <div class="box number-4"></div>
+      <div class="box number-5"></div>
+      <div class="box number-6"></div>
+      <div class="box number-7"></div>
+      <div class="box number-8"></div>
+      <div class="box number-9"></div>
     </div>
   </div>
 </body>
